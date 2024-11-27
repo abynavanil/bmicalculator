@@ -1,0 +1,211 @@
+
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* border: solid; */
+    text-align: center;
+    color: white;
+
+    }
+    .font{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 15%;
+        
+
+
+    }
+    h3{
+        font-weight: 400;
+    }
+    body{
+        background-color:rgb(217, 224, 224);
+    }
+    .outline{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+
+
+    }
+    .main{
+        height: 80vh;
+        background-color:rgb(11, 14, 32);
+        width: 25%;
+        border-radius: 40px;
+    align-items: center;
+    border: solid grey 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Default shadow */
+    transition: box-shadow 0.3s ease-in-out;
+        
+    }
+    .main h5{
+        text-align: center;
+        margin-top: 4%;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10%;
+    }
+    /* icon part */
+    .male{
+        width: 50%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    margin: 0 5%;
+    border: solid white 4px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    background-color: rgb(29, 30, 50);
+
+
+    
+    }
+    .female{
+        width: 50%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5%;
+        border: solid white 4px;
+        border-radius: 20px;
+        margin-bottom: 5%;
+        background-color: rgb(29, 30, 50);
+
+
+    }
+    /* iconclass */
+    .bx{
+        font-size: 50px;
+    }
+    #icon{
+        display: flex;
+        margin-top: 5%;
+    }
+    .age
+    {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        border-bottom:50px;
+        
+    }
+
+    #age-val{
+        border: solid;
+    width: 70%;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: rgb(29, 30, 50);
+    border: solid white 5px;
+
+
+        
+    }
+    .row{
+        margin-top: 30px;
+        text-align: center;
+        border: solid;
+    
+    }
+    .weight{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    margin: 0 5%;
+    border: solid white 4px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    gap: 8px;
+    background-color: rgb(29, 30, 50);
+    }
+    #h1,#w1{
+        background-color: rgb(29, 30, 50);
+
+    }
+    .height{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    margin: 0 5%;
+    border: solid white 4px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    gap: 8px;
+    background-color: rgb(29, 30, 50);
+
+    }
+    .value{
+        font-size: 30px;
+        text-align: center;
+        width: 120px;
+        border: 0px;
+    }
+    button{
+    border-radius: 50PX;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    
+    }
+    .bmi{
+        display: flex;
+        justify-content: center;
+    }
+    #bmiresult{
+        background-color:rgb(216, 52, 88);
+        border: solid white 2px;
+
+    }
+    input{
+        border: none;
+        outline: none;
+    }
+    #resultdiv {
+        display: none; /* Initially hidden */
+        position: fixed;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 150px;
+        border: solid white;
+        gap: 10px;
+        background-color: green;
+        width: 300px;
+        border-radius: 20px;
+        color: white;
+    }
+    #okbutton{
+        border: 2px solid white;
+        background-color:rgb(216, 52, 88);
+        
+    }
+    h3{
+        color: rgb(122, 122, 134);
+
+    }

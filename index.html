@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="outline">
+        
+        <div class="main">
+          
+            <h5>BMI CALCULATOR</h5>
+            <div class="font">
+                <h3>MALE</h3>
+            <h3>FEMALE</h3>
+            </div>
+            <div id="icon">
+
+                <div class="male"   id="men" onclick="genderm()">
+                    <i id="m" class='bx bx-male-sign'></i>
+
+                </div>
+                <div class="female" id="women" onclick="genderf()">
+                    <i id ="f" class='bx bx-female-sign'></i>
+
+                </div> 
+
+            </div>
+            <div id="resultdiv">
+                <p id="bmi">BMI = </p>
+                <p id="bodyfat"> BODY FAT = </p>
+                <button id="okbutton"> OK</button>
+            </div>
+            <div class="age">
+                <h3>AGE</h3>
+                <input id="age-val" type="number"  placeholder="--">
+            </div>
+            <div id="icon">
+
+                <div class="weight">
+                    <h3>WEIGHT(kg)</h3>
+                    <input class="value" id="w1" type="number" placeholder="--">
+
+                </div>
+                <div class="height">
+                   <h3>HEIGHT(cm)</h3>
+                   <input class="value" id="h1" type="number" placeholder="--">
+
+                </div> 
+
+
+            </div>
+            <div class="bmi"><button id="bmiresult" onclick="calc()">BMI</button></div>
+             
+
+        </div>
+    </div>
+</body>
+<script src="./script.js">
+
+</script>
+
+</html>
